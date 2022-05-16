@@ -6,6 +6,7 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import BookmarksIcon from '@mui/icons-material/Bookmarks';
 import HelpIcon from '@mui/icons-material/Help';
+import SettingsBackupRestoreIcon from '@mui/icons-material/SettingsBackupRestore';
 
 function SideBar() {
   return (
@@ -33,12 +34,44 @@ function SideBar() {
             <span className='sidebarListItemText'>Sauvegardes</span>
           </li>
           <li className='sidebarListItem'>
-            <BookmarksIcon className="sidebarIcon"/>
-            <span className='sidebarListItemText'>Sauvegardes</span>
+            <SettingsBackupRestoreIcon className="sidebarIcon"/>
+            <span className='sidebarListItemText'>Historique</span>
           </li>
           <li className='sidebarListItem'>
             <HelpIcon className="sidebarIcon"/>
             <span className='sidebarListItemText'>Aide</span>
+          </li>
+        </ul>
+        <button className='sidebarBtn'>Menu</button>
+        <hr className='sidebarHr'></hr>
+        <ul className='sidebarFriendList'>
+          <li className='sidebarFriend'>
+            <img className="sidebarFriendImg" src='./assets/users/pexels-allan-mas-5368986.jpg' alt=''></img>
+            <span className='sidebarFriendName'>Jean93</span>
+          </li>
+          <li className='sidebarFriend'>
+            <img className="sidebarFriendImg" src='./assets/users/pexels-dillon-kydd-5794559.jpg' alt=''></img>
+            <span className='sidebarFriendName'>Margot</span>
+          </li>
+          <li className='sidebarFriend'>
+            <img className="sidebarFriendImg" src='./assets/users/pexels-linkedin-sales-navigator-2182970.jpg' alt=''></img>
+            <span className='sidebarFriendName'>Pascal</span>
+          </li>
+          <li className='sidebarFriend'>
+            <img className="sidebarFriendImg" src='./assets/users/pexels-andrea-piacquadio-774909.jpg' alt=''></img>
+            <span className='sidebarFriendName'>Andrea</span>
+          </li>
+          <li className='sidebarFriend'>
+            <img className="sidebarFriendImg" src='./assets/users/pexels-andrea-piacquadio-3769021.jpg' alt=''></img>
+            <span className='sidebarFriendName'>Marie</span>
+          </li>
+          <li className='sidebarFriend'>
+            <img className="sidebarFriendImg" src='./assets/users/pexels-ekaterina-belinskaya-4923104.jpg' alt=''></img>
+            <span className='sidebarFriendName'>Jack</span>
+          </li>
+          <li className='sidebarFriend'>
+            <img className="sidebarFriendImg" src='./assets/users/pexels-kampus-production-6670986.jpg' alt=''></img>
+            <span className='sidebarFriendName'>Nicolas</span>
           </li>
         </ul>
       </div>
