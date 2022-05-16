@@ -1,0 +1,9 @@
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    background-color: rgb(26, 25, 25);
+}
+
+.sidebarWrapper{
+    padding: 20px;
+}

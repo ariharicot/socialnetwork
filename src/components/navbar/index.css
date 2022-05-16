@@ -76,6 +76,11 @@
     position: relative;
 }
 
+.navbarIconItem:hover{
+    color: #f80 !important;
+    transition: all .2s ease-in-out
+}
+
 .navbarIconNotif {
     width: 15px;
     height: 15px;
@@ -94,4 +99,13 @@
 .profilPic {
     width: 32px;
     height: 32px;
+    margin-right: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all .2s ease-in-out
+};
+
+.profilPic:hover{
+    transform: scale(0.6);
 }
