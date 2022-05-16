@@ -19,7 +19,7 @@ function NavBar() {
       </div>
       <div className='navbar-right'>
         <div className='navbar-links'>
-          <span className='navbarLink'>Page d'Accueil</span>
+          <span className='navbarLink'>Accueil</span>
           <span className='navbarLink'>Historique</span>
         </div>
         <div className="navbarIcons">
