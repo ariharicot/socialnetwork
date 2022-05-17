@@ -52,6 +52,11 @@
     align-items: center;
     margin: 15px;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.shareOption:hover{
+    color: #77b300;
 }
 
 .shred{

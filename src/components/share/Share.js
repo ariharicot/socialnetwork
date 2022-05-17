@@ -38,7 +38,7 @@ function Share() {
                     </div>
                     <button className='shareBtn'>Partager</button>
                 </div>
-            </div>Partager du contenu
+            </div>
         </div>
     )
 }
