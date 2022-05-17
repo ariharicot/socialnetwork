@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <NavBar />
-      <div className='home-container'>
+      <div className='homeContainer'>
         <SideBar />
         <Feed />
         <RightBar />
