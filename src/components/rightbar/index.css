@@ -66,4 +66,16 @@
     position: absolute;
     top: -2px;
     right: 0;
+    border: 2px solid white;
+}
+
+.rightBarUserName{
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.rightBarUserName:hover{
+    color: #2a9fd6;
 }

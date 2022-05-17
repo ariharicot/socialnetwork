@@ -19,6 +19,20 @@ function RightBar() {
             </div>
             <span className='rightBarUserName'>Jean93</span>
           </li>
+          <li className='rightBarFriend'>
+            <div className='rightbarProfileImgContainer'>
+              <img className='rightBarFriendProfileImg' src="./assets/users/pexels-kampus-production-6670986.jpg" alt=""></img>
+              <span className='rightBarOnline'></span>
+            </div>
+            <span className='rightBarUserName'>Nicolas</span>
+          </li>
+          <li className='rightBarFriend'>
+            <div className='rightbarProfileImgContainer'>
+              <img className='rightBarFriendProfileImg' src="./assets/users/pexels-dillon-kydd-5794559.jpg" alt=""></img>
+              <span className='rightBarOnline'></span>
+            </div>
+            <span className='rightBarUserName'>Margot</span>
+          </li>
         </ul>
       </div>
     </div>
