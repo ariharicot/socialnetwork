@@ -2,6 +2,8 @@
     flex: 3;
     height: calc(100vh - 50px);
     background-color: rgb(26, 25, 25);
+    position: sticky;
+    top: 50px;
     overflow-y: scroll;
 }
 
@@ -65,22 +67,3 @@
     list-style: none;
 }
 
-.sidebarFriend{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    color: white;
-    transition: all .2s ease-in-out;
-    cursor: pointer;
-}
-.sidebarFriend:hover{
-    color: #2a9fd6;
-}
-
-.sidebarFriendImg{
-    width: 32px;
-    height: 32px;
-    border-radius: 50px;
-    object-fit: cover;
-    margin-right: 10px;
-}
