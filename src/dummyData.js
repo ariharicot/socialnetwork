@@ -44,7 +44,7 @@ export const Users = [
 
 ];
 
-export const Post = [
+export const Posts = [
     {
         id: 1,
         desc: "Retour au bureau",
